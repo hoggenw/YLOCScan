@@ -1,0 +1,16 @@
+PODS:
+  - YLOCScan (0.1.0)
+
+DEPENDENCIES:
+  - YLOCScan (from `../`)
+
+EXTERNAL SOURCES:
+  YLOCScan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLOCScan: 32bc7658ea29eaa57d8432695dd30ebb19eed754
+
+PODFILE CHECKSUM: bede5b99cc8a26da161099fbc93701b92bc7c729
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,22 @@
+{
+  "name": "YLOCScan",
+  "version": "0.1.0",
+  "summary": "A short description of YLOCScan.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hoggenw/YLOCScan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hoggenw": "253192463@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hoggenw/YLOCScan.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLOCScan/Classes/**/*"
+}
