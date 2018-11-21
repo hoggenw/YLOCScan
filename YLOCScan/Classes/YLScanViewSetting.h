@@ -52,11 +52,8 @@ typedef void (^ExternalBlock)(NSMutableArray<YLScanResult*> *);
 
 +(UIImage *)imageFromBundleWithName:(NSString *)name;
 /**
- @brief  图像中间加logo图片
- @param srcImg    原图像
- @param LogoImage logo图像
- @param logoSize  logo图像尺寸
- @return 加Logo的图像
+ 图像中间加logo图片
+ 加Logo的图像
  */
 +(UIImageView *)creatQRCodeView:(CGRect)bound codeMessage:(NSString *)codeMessage logoName:(NSString *)logoName ;
 

@@ -84,16 +84,16 @@
     if (_ifNetGrid) {
         timeInterval = 1.2;
     }
-    
+    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:timeInterval animations:^{
-        self.alpha = 1.0;
+        weakSelf.alpha = 1.0;
         CGRect frame = _animationRect;
-        CGFloat imageH = self.image.size.height * _animationRect.size.width / self.image.size.width;
+        CGFloat imageH = weakSelf.image.size.height * _animationRect.size.width / weakSelf.image.size.width;
         frame.origin.y = frame.origin.y  + frame.size.height - imageH;
         frame.size.height = imageH;
-        self.frame = frame;
+        weakSelf.frame = frame;
     } completion:^(BOOL finished) {
-        [self performSelector:(@selector(stepAnimation)) withObject:nil afterDelay:0.3];
+        [weakSelf performSelector:(@selector(stepAnimation)) withObject:nil afterDelay:0.3];
     }];
     
     

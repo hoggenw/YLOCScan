@@ -508,83 +508,6 @@
 			};
 			name = Release;
 		};
-		14501245C26E4010B884E73D51117C53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YLOCScan/YLOCScan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YLOCScan/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YLOCScan/YLOCScan.modulemap";
-				PRODUCT_MODULE_NAME = YLOCScan;
-				PRODUCT_NAME = YLOCScan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4E28C7AB71D2B717314E7B5CA2AE3175 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YLOCScan/YLOCScan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YLOCScan/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YLOCScan/YLOCScan.modulemap";
-				PRODUCT_MODULE_NAME = YLOCScan;
-				PRODUCT_NAME = YLOCScan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5AB6E7F0A7FA7787BB578F040CEC409E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLOCScan";
-				INFOPLIST_FILE = "Target Support Files/YLOCScan/ResourceBundle-YLOCScan-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = YLOCScan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		62B09482752E01CC033E85A813251A8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82669C628CADC7143165DD03ABE6F33B /* Pods-YLOCScan_Tests.debug.xcconfig */;
@@ -617,6 +540,53 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6F591B455495FA6310F625D7E2FDCF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLOCScan/YLOCScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLOCScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLOCScan/YLOCScan.modulemap";
+				PRODUCT_MODULE_NAME = YLOCScan;
+				PRODUCT_NAME = YLOCScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71E17610369580AFD7B4A8B57C9A39D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLOCScan";
+				INFOPLIST_FILE = "Target Support Files/YLOCScan/ResourceBundle-YLOCScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = YLOCScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -681,21 +651,21 @@
 			};
 			name = Debug;
 		};
-		9E50DC13ED73AB1CA4B32D95AFA7BD0E /* Release */ = {
+		A77A78154AFCBEB45DC942D94C7B6AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLOCScan";
 				INFOPLIST_FILE = "Target Support Files/YLOCScan/ResourceBundle-YLOCScan-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = YLOCScan;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -755,6 +725,36 @@
 			};
 			name = Release;
 		};
+		D1DA411EA7F693CEF274985FAF8DAFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLOCScan/YLOCScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLOCScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLOCScan/YLOCScan.modulemap";
+				PRODUCT_MODULE_NAME = YLOCScan;
+				PRODUCT_NAME = YLOCScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -770,8 +770,8 @@
 		5B7DC38217C5F49432F5B682DB6D0F9B /* Build configuration list for PBXNativeTarget "YLOCScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E28C7AB71D2B717314E7B5CA2AE3175 /* Debug */,
-				14501245C26E4010B884E73D51117C53 /* Release */,
+				D1DA411EA7F693CEF274985FAF8DAFE8 /* Debug */,
+				6F591B455495FA6310F625D7E2FDCF84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -788,8 +788,8 @@
 		C99DC3E2CE26C340E6DBAABB02F01C9D /* Build configuration list for PBXNativeTarget "YLOCScan-YLOCScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AB6E7F0A7FA7787BB578F040CEC409E /* Debug */,
-				9E50DC13ED73AB1CA4B32D95AFA7BD0E /* Release */,
+				A77A78154AFCBEB45DC942D94C7B6AFB /* Debug */,
+				71E17610369580AFD7B4A8B57C9A39D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

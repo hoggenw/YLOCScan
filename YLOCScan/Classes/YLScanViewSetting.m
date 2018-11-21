@@ -256,7 +256,7 @@
             if ([feature isKindOfClass: CIQRCodeFeature.class]) {
                 CIQRCodeFeature * featureTmp = (CIQRCodeFeature *)feature;
                 NSString * scanResult = featureTmp.messageString;
-                YLScanResult *result = [[YLScanResult alloc] initWith:scanResult img: image barCodeType:AVMetadataObjectTypeQRCode corner:nil];
+                YLScanResult *result = [[YLScanResult alloc] initWith:scanResult img: image barCodeType:AVMetadataObjectTypeQRCode corner: [NSArray array]];
                 [returnResult addObject: result];
             }
         }
@@ -340,7 +340,7 @@
 +(UIImage *)imageByCroppingWithStyle:(UIImage *)srcImg rect:(CGRect)rect {
     CGImageRef  imageRef = srcImg.CGImage ;
     CGImageRef imagePartRef = CGImageCreateWithImageInRect(imageRef, rect);
-    UIImage *thumbScale = [UIImage imageWithCGImage:imageRef];
+    UIImage *thumbScale = [UIImage imageWithCGImage:imagePartRef];
     CGImageRelease(imageRef);
     return  thumbScale;
 }
