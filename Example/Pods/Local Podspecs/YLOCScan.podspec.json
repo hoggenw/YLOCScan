@@ -1,8 +1,8 @@
 {
   "name": "YLOCScan",
-  "version": "0.1.0",
-  "summary": "A short description of YLOCScan.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.9.0",
+  "summary": "Objective-C实现二维码扫描识别和生成二维码",
+  "description": "使用Manager管理以方便的调用以实现二维码扫描和结果返回，图片二维码识别，二维码生成等",
   "homepage": "https://github.com/hoggenw/YLOCScan",
   "license": {
     "type": "MIT",
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/hoggenw/YLOCScan.git",
-    "tag": "0.1.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YLOCScan/Classes/**/*"
+  "source_files": "YLOCScan/Classes/**/*",
+  "resource_bundles": {
+    "YLOCScan": [
+      "YLOCScan/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation"
+  ]
 }

@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0127D557591435A13FE5A912120EF241 /* qrcode_scan_light_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7DD375287F52C12DAAA8840B4F11222 /* qrcode_scan_light_green@2x.png */; };
 		0D6A267F447E59E83C4E3E57DFB0EB90 /* Pods-YLOCScan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11C371D0C7D8DFB266E24D657210C65 /* Pods-YLOCScan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C7C48E62CFBD1533E381EE210E349D1 /* YLOCScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0D1E7EAD19003E1F3FB90E2D5A06 /* YLOCScan-dummy.m */; };
+		0EA19445E84B3A956494B0060FA7A34D /* YLScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8658D1725F6C0DA4786867CD0856E /* YLScanView.m */; };
+		0F03137C9741532D65B727EA43E7BB39 /* qrcode_scan_btn_photo_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E92C3F96E0D2BC3BCB5605473273763 /* qrcode_scan_btn_photo_down.png */; };
+		11AF3226C0EBA028025005CB0C4BA00D /* YLPhonePermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = A46F1F15D21D12F3117B25D39376D805 /* YLPhonePermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1236B075950BAD3B9C97A934E8096274 /* qr_vc_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8CE02734C5A57F77E9B7DE26BF627F /* qr_vc_left.png */; };
+		2539E43F1704E85717812721A16D09FA /* YLScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A4BB738F96A60E2FAD07CDB84667A8 /* YLScanViewController.m */; };
+		2A4546A2DCF3AA352F1ACB65D6411209 /* qrcode_scan_btn_flash_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A117B4A6CECCC8D55A7221EBF9E7F348 /* qrcode_scan_btn_flash_down@2x.png */; };
+		32563A624164BA96DF5ED83B7A44B1C0 /* YLScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 167266E4FD984A58673AECF67B2D6681 /* YLScanResult.m */; };
+		40ABAD9AD5113C582592A78059F353FE /* qrcode_Scan_weixin_Line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE0A36E3656A2CD787456009C4D0141 /* qrcode_Scan_weixin_Line@2x.png */; };
+		4400998FDF323C268EBA81FC865C73EA /* YLPhonePermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6447F0FFE3C51B08886A133F4F3A82 /* YLPhonePermissions.m */; };
+		48606290D2F947C840D67A66A40DB9E3 /* YLScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5787441F82F8C651298D5AB5590305F /* YLScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52354BF4E00548ED7BF1B2BA212C738F /* YLScanViewSytle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8264D5F1B369CBBC3DA331C50B437 /* YLScanViewSytle.m */; };
+		5AB457B7C86A56E67D347E5372FE65AC /* YLScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4C27FDB7851981FE7000C25EA72381 /* YLScanLineAnimation.m */; };
+		63C08B8B2CB621924F7B7B3FF1B61F25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
+		6A71112A14DC949BCD84C9C39F1754FC /* YLScanResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7801008E55D51AB3D388B373A6DBB69E /* YLScanResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74222F961434DC8B4F4AE4EE90C35DAB /* Pods-YLOCScan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916C39241BC8FD7C9F62C12C724391F /* Pods-YLOCScan_Tests-dummy.m */; };
-		91A6CEC4C2EF7BDBD5C40C8D28E0020E /* YLOCScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5CEE0B006EEF617CC36F803FD2D737 /* YLOCScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A909A844218D6AE9F637B194684B995A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E41E08101F4494390C6A0DB18481885B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E164FAB73CC630E652FAA3E0A6FEEA /* ReplaceMe.m */; };
-		ECA27C0DF194CFD96852C29F32CDAA45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		78149B1623D82B059A84F54AB0CC7B58 /* YLScanViewSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 743D034F0CBCCF2CBA37A08972ACDBAC /* YLScanViewSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DB01ADF6A789FBB88728405FD7FD49 /* qrcode_scan_btn_flash_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67797E4B792BB958C2A1E77A66E5A6DB /* qrcode_scan_btn_flash_nor@2x.png */; };
+		8B61D30CC2CD3C5ABB10FA9B0E64CE8E /* YLOCScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B2CA51C1B981C0D3A75252A2B22451 /* YLOCScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CFF57F6ECB7389723D54E99606BA104 /* qrcode_scan_part_net.png in Resources */ = {isa = PBXBuildFile; fileRef = 551D81ACD7399F82750471E4563360C4 /* qrcode_scan_part_net.png */; };
+		93455CAACD699628B00F66579F928411 /* YLOCScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A1C335C6F90E85582E0B71DEF324D10 /* YLOCScan.bundle */; };
+		9F1D483F3D678844DA646182A76955F0 /* YLScanViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E6620B168F47007FE9727F506BCFA2 /* YLScanViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A096D4786EE9B60DC8934BDB2700E6E6 /* YLScanViewSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F63707D0BDF15800104D9A7B20823B /* YLScanViewSetting.m */; };
+		B5545ABAB7A678538E53A3D717F0F5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		B7535D92BDA1367DF6EB0B31D3C23530 /* YLOCScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9522333A5F407989EA60FFF67DC19FC0 /* YLOCScan-dummy.m */; };
+		C23066D5113EA2C31A0B4B89F4E83D80 /* YLScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = E3954A5B3563ABEE633C77BC2423CD79 /* YLScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A0BC0F826450007A5AA9024CCE79C5 /* qrcode_scan_full_net.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C96B4D6E3AB3FBB02FD646CD41E9EC9 /* qrcode_scan_full_net.png */; };
+		DFAC531E782FB68AF6A5C0C229735B0B /* YLScanLineAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 933C307716C4A5010C0DEEA4E84487DE /* YLScanLineAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA27C0DF194CFD96852C29F32CDAA45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		EDE1A71860831D213D5A26EC6FF7E58F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
+		F10D85C2353F15742C9681AC6D8A443D /* YLScanViewSytle.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9B22354F0D2C6465D49B913AA5C6E7 /* YLScanViewSytle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42D4B40A9CBFF599540F6BEE4E91701 /* YLScanViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C8D6880A8F0FCFB260AA5050CC4B3B /* YLScanViewManager.m */; };
+		F4B24D2AD5BAEB236F5C80597D0761A9 /* YLOCScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2163CDB79DC1AF0975E96622713681D1 /* YLOCScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,41 +51,85 @@
 			remoteGlobalIDString = 7B598A4DDFAA2806984F83B7C5623EA4;
 			remoteInfo = YLOCScan;
 		};
+		924EE94564D5724530AC5B7447DF4DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEC4FE8CE7F1400B079CAB107BFE475;
+			remoteInfo = "YLOCScan-YLOCScan";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02C24CA2FCEAA15BCA21472B7CC9DB2B /* Pods-YLOCScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLOCScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0A1C335C6F90E85582E0B71DEF324D10 /* YLOCScan.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YLOCScan.bundle; path = "YLOCScan-YLOCScan.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D796F6A60C72D112D2B3B198D316D4A /* ResourceBundle-YLOCScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YLOCScan-Info.plist"; sourceTree = "<group>"; };
 		15FEFB9BF7953523DC68434CFE14B3A6 /* Pods-YLOCScan_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLOCScan_Tests.modulemap"; sourceTree = "<group>"; };
-		195EF2385AADA3ED1C8515472B52AA8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1AE21F000209AEB88D6AB5949B62C9B1 /* YLOCScan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLOCScan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		28DE868C10877D4503B8F9959A2856C4 /* YLOCScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLOCScan.framework; path = YLOCScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		334135B044B4DF1B26FDAAAF989921AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F85F0920AE27159E5F61E4E33D40C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		167266E4FD984A58673AECF67B2D6681 /* YLScanResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanResult.m; path = YLOCScan/Classes/YLScanResult.m; sourceTree = "<group>"; };
+		1B4C27FDB7851981FE7000C25EA72381 /* YLScanLineAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanLineAnimation.m; path = YLOCScan/Classes/YLScanLineAnimation.m; sourceTree = "<group>"; };
+		1C6447F0FFE3C51B08886A133F4F3A82 /* YLPhonePermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPhonePermissions.m; path = YLOCScan/Classes/YLPhonePermissions.m; sourceTree = "<group>"; };
+		2163CDB79DC1AF0975E96622713681D1 /* YLOCScan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLOCScan.h; path = YLOCScan/Classes/YLOCScan.h; sourceTree = "<group>"; };
+		25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLOCScan.xcconfig; sourceTree = "<group>"; };
+		2FAEA461749139DD2BCE0EF8BED44E86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D8CE02734C5A57F77E9B7DE26BF627F /* qr_vc_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qr_vc_left.png; path = YLOCScan/Assets/qr_vc_left.png; sourceTree = "<group>"; };
+		3E92C3F96E0D2BC3BCB5605473273763 /* qrcode_scan_btn_photo_down.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qrcode_scan_btn_photo_down.png; path = YLOCScan/Assets/qrcode_scan_btn_photo_down.png; sourceTree = "<group>"; };
+		44902A6B66B6BCA609EA09F016402C07 /* YLOCScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLOCScan.framework; path = YLOCScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EEFD8A6FE5BD65A1AE874E1625A720 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4916C39241BC8FD7C9F62C12C724391F /* Pods-YLOCScan_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLOCScan_Tests-dummy.m"; sourceTree = "<group>"; };
-		4E1D6C32F229F2DE44553FEE1F1D650F /* Pods_YLOCScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLOCScan_Tests.framework; path = "Pods-YLOCScan_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5CEE0B006EEF617CC36F803FD2D737 /* YLOCScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCScan-umbrella.h"; sourceTree = "<group>"; };
+		54E8658D1725F6C0DA4786867CD0856E /* YLScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanView.m; path = YLOCScan/Classes/YLScanView.m; sourceTree = "<group>"; };
+		551D81ACD7399F82750471E4563360C4 /* qrcode_scan_part_net.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qrcode_scan_part_net.png; path = YLOCScan/Assets/qrcode_scan_part_net.png; sourceTree = "<group>"; };
 		58E7DEFFD3060C5B15EEECF87B2131D1 /* Pods-YLOCScan_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLOCScan_Tests-resources.sh"; sourceTree = "<group>"; };
-		654B7172683DE1E5404AB7589BDB1205 /* YLOCScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLOCScan.xcconfig; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73E164FAB73CC630E652FAA3E0A6FEEA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YLOCScan/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5EF8264D5F1B369CBBC3DA331C50B437 /* YLScanViewSytle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanViewSytle.m; path = YLOCScan/Classes/YLScanViewSytle.m; sourceTree = "<group>"; };
+		637FBF15FDE0D43AA87070F19B07733D /* YLOCScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCScan-prefix.pch"; sourceTree = "<group>"; };
+		63A4BB738F96A60E2FAD07CDB84667A8 /* YLScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanViewController.m; path = YLOCScan/Classes/YLScanViewController.m; sourceTree = "<group>"; };
+		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		66C8D6880A8F0FCFB260AA5050CC4B3B /* YLScanViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanViewManager.m; path = YLOCScan/Classes/YLScanViewManager.m; sourceTree = "<group>"; };
+		67797E4B792BB958C2A1E77A66E5A6DB /* qrcode_scan_btn_flash_nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "qrcode_scan_btn_flash_nor@2x.png"; path = "YLOCScan/Assets/qrcode_scan_btn_flash_nor@2x.png"; sourceTree = "<group>"; };
+		743D034F0CBCCF2CBA37A08972ACDBAC /* YLScanViewSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanViewSetting.h; path = YLOCScan/Classes/YLScanViewSetting.h; sourceTree = "<group>"; };
+		7801008E55D51AB3D388B373A6DBB69E /* YLScanResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanResult.h; path = YLOCScan/Classes/YLScanResult.h; sourceTree = "<group>"; };
+		7A9C8F850C4E4E6E7682C193FAEB8D20 /* YLOCScan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLOCScan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C69B7C7DCE837B22BAE54E7AD6D1751 /* YLOCScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLOCScan.modulemap; sourceTree = "<group>"; };
+		7E1ACC731D066ABE8891C9C448B273F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE0A36E3656A2CD787456009C4D0141 /* qrcode_Scan_weixin_Line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "qrcode_Scan_weixin_Line@2x.png"; path = "YLOCScan/Assets/qrcode_Scan_weixin_Line@2x.png"; sourceTree = "<group>"; };
 		82669C628CADC7143165DD03ABE6F33B /* Pods-YLOCScan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLOCScan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		89359B88AFCAE759C0255FB28577605D /* Pods-YLOCScan_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLOCScan_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8C96B4D6E3AB3FBB02FD646CD41E9EC9 /* qrcode_scan_full_net.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qrcode_scan_full_net.png; path = YLOCScan/Assets/qrcode_scan_full_net.png; sourceTree = "<group>"; };
+		933C307716C4A5010C0DEEA4E84487DE /* YLScanLineAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanLineAnimation.h; path = YLOCScan/Classes/YLScanLineAnimation.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD92D690F7C3147CC02FC82F2E6B339 /* YLOCScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCScan-prefix.pch"; sourceTree = "<group>"; };
-		B24786B6DA3316C04240C38CD66420DD /* YLOCScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLOCScan.modulemap; sourceTree = "<group>"; };
+		9522333A5F407989EA60FFF67DC19FC0 /* YLOCScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLOCScan-dummy.m"; sourceTree = "<group>"; };
+		97E6620B168F47007FE9727F506BCFA2 /* YLScanViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanViewManager.h; path = YLOCScan/Classes/YLScanViewManager.h; sourceTree = "<group>"; };
+		A117B4A6CECCC8D55A7221EBF9E7F348 /* qrcode_scan_btn_flash_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "qrcode_scan_btn_flash_down@2x.png"; path = "YLOCScan/Assets/qrcode_scan_btn_flash_down@2x.png"; sourceTree = "<group>"; };
+		A46F1F15D21D12F3117B25D39376D805 /* YLPhonePermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPhonePermissions.h; path = YLOCScan/Classes/YLPhonePermissions.h; sourceTree = "<group>"; };
+		AE9B22354F0D2C6465D49B913AA5C6E7 /* YLScanViewSytle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanViewSytle.h; path = YLOCScan/Classes/YLScanViewSytle.h; sourceTree = "<group>"; };
 		BE7FF4EE560DFB1426040A004A6EEE40 /* Pods-YLOCScan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLOCScan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3F63707D0BDF15800104D9A7B20823B /* YLScanViewSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLScanViewSetting.m; path = YLOCScan/Classes/YLScanViewSetting.m; sourceTree = "<group>"; };
 		D4BED366B8E9432A125D3EA928038F3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DD375287F52C12DAAA8840B4F11222 /* qrcode_scan_light_green@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "qrcode_scan_light_green@2x.png"; path = "YLOCScan/Assets/qrcode_scan_light_green@2x.png"; sourceTree = "<group>"; };
+		DB90F200DBFDBD499336E73C5574E3B0 /* Pods_YLOCScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLOCScan_Tests.framework; path = "Pods-YLOCScan_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3954A5B3563ABEE633C77BC2423CD79 /* YLScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanView.h; path = YLOCScan/Classes/YLScanView.h; sourceTree = "<group>"; };
+		E5787441F82F8C651298D5AB5590305F /* YLScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLScanViewController.h; path = YLOCScan/Classes/YLScanViewController.h; sourceTree = "<group>"; };
+		E9B2CA51C1B981C0D3A75252A2B22451 /* YLOCScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCScan-umbrella.h"; sourceTree = "<group>"; };
 		EBFCB09DFB3515B0B2667701C61D1156 /* Pods-YLOCScan_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLOCScan_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F11C371D0C7D8DFB266E24D657210C65 /* Pods-YLOCScan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLOCScan_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F2CB0D1E7EAD19003E1F3FB90E2D5A06 /* YLOCScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLOCScan-dummy.m"; sourceTree = "<group>"; };
+		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		644DEC52E46AA0F074E8018AEDA70A20 /* Frameworks */ = {
+		29B9095EF96AFBE70B916C8819B84E2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A909A844218D6AE9F637B194684B995A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E27A547123B768461ABC38970DAD468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C08B8B2CB621924F7B7B3FF1B61F25 /* AVFoundation.framework in Frameworks */,
+				B5545ABAB7A678538E53A3D717F0F5F8 /* Foundation.framework in Frameworks */,
+				EDE1A71860831D213D5A26EC6FF7E58F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715827B6A84C2549CD0FBA09A28FA485 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D9A1EFEC4E41F76620C728B5F143398 /* Pods-YLOCScan_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,81 +178,109 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		49CE4787812B4F66ECE2F96EEB838301 /* YLOCScan */ = {
+		52AAE9672A392DB724FA9D2D455A40C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73E164FAB73CC630E652FAA3E0A6FEEA /* ReplaceMe.m */,
-				4EDFD11AF3BB1725A2C8DAA050F079CB /* Pod */,
-				CA6E8131528BD15A152BCB774FC85B1E /* Support Files */,
+				DB90F200DBFDBD499336E73C5574E3B0 /* Pods_YLOCScan_Tests.framework */,
+				0A1C335C6F90E85582E0B71DEF324D10 /* YLOCScan.bundle */,
+				44902A6B66B6BCA609EA09F016402C07 /* YLOCScan.framework */,
 			);
-			name = YLOCScan;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4EDFD11AF3BB1725A2C8DAA050F079CB /* Pod */ = {
+		6463F3EC60112F393447A3A5B12A3A15 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45F85F0920AE27159E5F61E4E33D40C6 /* LICENSE */,
-				195EF2385AADA3ED1C8515472B52AA8E /* README.md */,
-				1AE21F000209AEB88D6AB5949B62C9B1 /* YLOCScan.podspec */,
+				7E1ACC731D066ABE8891C9C448B273F8 /* Info.plist */,
+				0D796F6A60C72D112D2B3B198D316D4A /* ResourceBundle-YLOCScan-Info.plist */,
+				7C69B7C7DCE837B22BAE54E7AD6D1751 /* YLOCScan.modulemap */,
+				25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */,
+				9522333A5F407989EA60FFF67DC19FC0 /* YLOCScan-dummy.m */,
+				637FBF15FDE0D43AA87070F19B07733D /* YLOCScan-prefix.pch */,
+				E9B2CA51C1B981C0D3A75252A2B22451 /* YLOCScan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLOCScan";
+			sourceTree = "<group>";
+		};
+		712695022D3CB02B2BF1DC4272798FFD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45EEFD8A6FE5BD65A1AE874E1625A720 /* LICENSE */,
+				2FAEA461749139DD2BCE0EF8BED44E86 /* README.md */,
+				7A9C8F850C4E4E6E7682C193FAEB8D20 /* YLOCScan.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		715827B6A84C2549CD0FBA09A28FA485 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */,
+				CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */,
+				63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		767EA038C042E9D397B4D16A9D8F07B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D8CE02734C5A57F77E9B7DE26BF627F /* qr_vc_left.png */,
+				A117B4A6CECCC8D55A7221EBF9E7F348 /* qrcode_scan_btn_flash_down@2x.png */,
+				67797E4B792BB958C2A1E77A66E5A6DB /* qrcode_scan_btn_flash_nor@2x.png */,
+				3E92C3F96E0D2BC3BCB5605473273763 /* qrcode_scan_btn_photo_down.png */,
+				8C96B4D6E3AB3FBB02FD646CD41E9EC9 /* qrcode_scan_full_net.png */,
+				D7DD375287F52C12DAAA8840B4F11222 /* qrcode_scan_light_green@2x.png */,
+				551D81ACD7399F82750471E4563360C4 /* qrcode_scan_part_net.png */,
+				7EE0A36E3656A2CD787456009C4D0141 /* qrcode_Scan_weixin_Line@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F60158B7DCB4FCA5D44DEFDC17CE45E9 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8DACEAAF5284441E466DFA121690DA97 /* Products */,
+				F9E39D820C6094193905DC0B59B5CE7D /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				52AAE9672A392DB724FA9D2D455A40C8 /* Products */,
 				3DCFD718F6BAF32CA83E746E9B8EBF47 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DACEAAF5284441E466DFA121690DA97 /* Products */ = {
+		F6314E05C571F7D0FDD169B06E5CB3AF /* YLOCScan */ = {
 			isa = PBXGroup;
 			children = (
-				4E1D6C32F229F2DE44553FEE1F1D650F /* Pods_YLOCScan_Tests.framework */,
-				28DE868C10877D4503B8F9959A2856C4 /* YLOCScan.framework */,
+				2163CDB79DC1AF0975E96622713681D1 /* YLOCScan.h */,
+				A46F1F15D21D12F3117B25D39376D805 /* YLPhonePermissions.h */,
+				1C6447F0FFE3C51B08886A133F4F3A82 /* YLPhonePermissions.m */,
+				933C307716C4A5010C0DEEA4E84487DE /* YLScanLineAnimation.h */,
+				1B4C27FDB7851981FE7000C25EA72381 /* YLScanLineAnimation.m */,
+				7801008E55D51AB3D388B373A6DBB69E /* YLScanResult.h */,
+				167266E4FD984A58673AECF67B2D6681 /* YLScanResult.m */,
+				E3954A5B3563ABEE633C77BC2423CD79 /* YLScanView.h */,
+				54E8658D1725F6C0DA4786867CD0856E /* YLScanView.m */,
+				E5787441F82F8C651298D5AB5590305F /* YLScanViewController.h */,
+				63A4BB738F96A60E2FAD07CDB84667A8 /* YLScanViewController.m */,
+				97E6620B168F47007FE9727F506BCFA2 /* YLScanViewManager.h */,
+				66C8D6880A8F0FCFB260AA5050CC4B3B /* YLScanViewManager.m */,
+				743D034F0CBCCF2CBA37A08972ACDBAC /* YLScanViewSetting.h */,
+				D3F63707D0BDF15800104D9A7B20823B /* YLScanViewSetting.m */,
+				AE9B22354F0D2C6465D49B913AA5C6E7 /* YLScanViewSytle.h */,
+				5EF8264D5F1B369CBBC3DA331C50B437 /* YLScanViewSytle.m */,
+				712695022D3CB02B2BF1DC4272798FFD /* Pod */,
+				767EA038C042E9D397B4D16A9D8F07B6 /* Resources */,
+				6463F3EC60112F393447A3A5B12A3A15 /* Support Files */,
 			);
-			name = Products;
+			name = YLOCScan;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		F9E39D820C6094193905DC0B59B5CE7D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA6E8131528BD15A152BCB774FC85B1E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				334135B044B4DF1B26FDAAAF989921AF /* Info.plist */,
-				B24786B6DA3316C04240C38CD66420DD /* YLOCScan.modulemap */,
-				654B7172683DE1E5404AB7589BDB1205 /* YLOCScan.xcconfig */,
-				F2CB0D1E7EAD19003E1F3FB90E2D5A06 /* YLOCScan-dummy.m */,
-				9BD92D690F7C3147CC02FC82F2E6B339 /* YLOCScan-prefix.pch */,
-				4F5CEE0B006EEF617CC36F803FD2D737 /* YLOCScan-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLOCScan";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F60158B7DCB4FCA5D44DEFDC17CE45E9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				49CE4787812B4F66ECE2F96EEB838301 /* YLOCScan */,
+				F6314E05C571F7D0FDD169B06E5CB3AF /* YLOCScan */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -181,11 +288,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3543319C25BCC3F479183BD2C0772433 /* Headers */ = {
+		CC24B8A522662D1107E8CEF003690E1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91A6CEC4C2EF7BDBD5C40C8D28E0020E /* YLOCScan-umbrella.h in Headers */,
+				8B61D30CC2CD3C5ABB10FA9B0E64CE8E /* YLOCScan-umbrella.h in Headers */,
+				F4B24D2AD5BAEB236F5C80597D0761A9 /* YLOCScan.h in Headers */,
+				11AF3226C0EBA028025005CB0C4BA00D /* YLPhonePermissions.h in Headers */,
+				DFAC531E782FB68AF6A5C0C229735B0B /* YLScanLineAnimation.h in Headers */,
+				6A71112A14DC949BCD84C9C39F1754FC /* YLScanResult.h in Headers */,
+				C23066D5113EA2C31A0B4B89F4E83D80 /* YLScanView.h in Headers */,
+				48606290D2F947C840D67A66A40DB9E3 /* YLScanViewController.h in Headers */,
+				9F1D483F3D678844DA646182A76955F0 /* YLScanViewManager.h in Headers */,
+				78149B1623D82B059A84F54AB0CC7B58 /* YLScanViewSetting.h in Headers */,
+				F10D85C2353F15742C9681AC6D8A443D /* YLScanViewSytle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,21 +316,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7B598A4DDFAA2806984F83B7C5623EA4 /* YLOCScan */ = {
+		6BEC4FE8CE7F1400B079CAB107BFE475 /* YLOCScan-YLOCScan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B7DC38217C5F49432F5B682DB6D0F9B /* Build configuration list for PBXNativeTarget "YLOCScan" */;
+			buildConfigurationList = C99DC3E2CE26C340E6DBAABB02F01C9D /* Build configuration list for PBXNativeTarget "YLOCScan-YLOCScan" */;
 			buildPhases = (
-				5E108AFD3CCDCC0D8B2FFD78BD6C9362 /* Sources */,
-				644DEC52E46AA0F074E8018AEDA70A20 /* Frameworks */,
-				3543319C25BCC3F479183BD2C0772433 /* Headers */,
+				C39AEB8FDCF8716DFF6BD345A2ACE8C9 /* Sources */,
+				29B9095EF96AFBE70B916C8819B84E2A /* Frameworks */,
+				E40AD2406396625C26F4489536CDF25C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "YLOCScan-YLOCScan";
+			productName = "YLOCScan-YLOCScan";
+			productReference = 0A1C335C6F90E85582E0B71DEF324D10 /* YLOCScan.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7B598A4DDFAA2806984F83B7C5623EA4 /* YLOCScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7DC38217C5F49432F5B682DB6D0F9B /* Build configuration list for PBXNativeTarget "YLOCScan" */;
+			buildPhases = (
+				555566C477A3E778AC5B9729436B43B7 /* Sources */,
+				5E27A547123B768461ABC38970DAD468 /* Frameworks */,
+				070B5E401E38490182D7FAFFA8102CD5 /* Resources */,
+				CC24B8A522662D1107E8CEF003690E1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65321C60EB984B971DFAF09EA713A235 /* PBXTargetDependency */,
+			);
 			name = YLOCScan;
 			productName = YLOCScan;
-			productReference = 28DE868C10877D4503B8F9959A2856C4 /* YLOCScan.framework */;
+			productReference = 44902A6B66B6BCA609EA09F016402C07 /* YLOCScan.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FAA1CC7EB829EBA547C34427A979D686 /* Pods-YLOCScan_Tests */ = {
@@ -232,7 +367,7 @@
 			);
 			name = "Pods-YLOCScan_Tests";
 			productName = "Pods-YLOCScan_Tests";
-			productReference = 4E1D6C32F229F2DE44553FEE1F1D650F /* Pods_YLOCScan_Tests.framework */;
+			productReference = DB90F200DBFDBD499336E73C5574E3B0 /* Pods_YLOCScan_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,23 +387,57 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8DACEAAF5284441E466DFA121690DA97 /* Products */;
+			productRefGroup = 52AAE9672A392DB724FA9D2D455A40C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FAA1CC7EB829EBA547C34427A979D686 /* Pods-YLOCScan_Tests */,
 				7B598A4DDFAA2806984F83B7C5623EA4 /* YLOCScan */,
+				6BEC4FE8CE7F1400B079CAB107BFE475 /* YLOCScan-YLOCScan */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		070B5E401E38490182D7FAFFA8102CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93455CAACD699628B00F66579F928411 /* YLOCScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40AD2406396625C26F4489536CDF25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1236B075950BAD3B9C97A934E8096274 /* qr_vc_left.png in Resources */,
+				2A4546A2DCF3AA352F1ACB65D6411209 /* qrcode_scan_btn_flash_down@2x.png in Resources */,
+				88DB01ADF6A789FBB88728405FD7FD49 /* qrcode_scan_btn_flash_nor@2x.png in Resources */,
+				0F03137C9741532D65B727EA43E7BB39 /* qrcode_scan_btn_photo_down.png in Resources */,
+				C8A0BC0F826450007A5AA9024CCE79C5 /* qrcode_scan_full_net.png in Resources */,
+				0127D557591435A13FE5A912120EF241 /* qrcode_scan_light_green@2x.png in Resources */,
+				8CFF57F6ECB7389723D54E99606BA104 /* qrcode_scan_part_net.png in Resources */,
+				40ABAD9AD5113C582592A78059F353FE /* qrcode_Scan_weixin_Line@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5E108AFD3CCDCC0D8B2FFD78BD6C9362 /* Sources */ = {
+		555566C477A3E778AC5B9729436B43B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41E08101F4494390C6A0DB18481885B /* ReplaceMe.m in Sources */,
-				1C7C48E62CFBD1533E381EE210E349D1 /* YLOCScan-dummy.m in Sources */,
+				B7535D92BDA1367DF6EB0B31D3C23530 /* YLOCScan-dummy.m in Sources */,
+				4400998FDF323C268EBA81FC865C73EA /* YLPhonePermissions.m in Sources */,
+				5AB457B7C86A56E67D347E5372FE65AC /* YLScanLineAnimation.m in Sources */,
+				32563A624164BA96DF5ED83B7A44B1C0 /* YLScanResult.m in Sources */,
+				0EA19445E84B3A956494B0060FA7A34D /* YLScanView.m in Sources */,
+				2539E43F1704E85717812721A16D09FA /* YLScanViewController.m in Sources */,
+				F42D4B40A9CBFF599540F6BEE4E91701 /* YLScanViewManager.m in Sources */,
+				A096D4786EE9B60DC8934BDB2700E6E6 /* YLScanViewSetting.m in Sources */,
+				52354BF4E00548ED7BF1B2BA212C738F /* YLScanViewSytle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +449,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C39AEB8FDCF8716DFF6BD345A2ACE8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		65321C60EB984B971DFAF09EA713A235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YLOCScan-YLOCScan";
+			target = 6BEC4FE8CE7F1400B079CAB107BFE475 /* YLOCScan-YLOCScan */;
+			targetProxy = 924EE94564D5724530AC5B7447DF4DBB /* PBXContainerItemProxy */;
+		};
 		E435DB6286D9A8D81202033967A3D122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YLOCScan;
@@ -328,7 +510,7 @@
 		};
 		14501245C26E4010B884E73D51117C53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654B7172683DE1E5404AB7589BDB1205 /* YLOCScan.xcconfig */;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -359,7 +541,7 @@
 		};
 		4E28C7AB71D2B717314E7B5CA2AE3175 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654B7172683DE1E5404AB7589BDB1205 /* YLOCScan.xcconfig */;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -384,6 +566,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AB6E7F0A7FA7787BB578F040CEC409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLOCScan";
+				INFOPLIST_FILE = "Target Support Files/YLOCScan/ResourceBundle-YLOCScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YLOCScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -483,6 +681,22 @@
 			};
 			name = Debug;
 		};
+		9E50DC13ED73AB1CA4B32D95AFA7BD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B5F0DBB0713C11926F8666F7329B29 /* YLOCScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLOCScan";
+				INFOPLIST_FILE = "Target Support Files/YLOCScan/ResourceBundle-YLOCScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YLOCScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -567,6 +781,15 @@
 			buildConfigurations = (
 				62B09482752E01CC033E85A813251A8B /* Debug */,
 				043F8AF5F0C2CBB22701D412DEC87B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99DC3E2CE26C340E6DBAABB02F01C9D /* Build configuration list for PBXNativeTarget "YLOCScan-YLOCScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB6E7F0A7FA7787BB578F040CEC409E /* Debug */,
+				9E50DC13ED73AB1CA4B32D95AFA7BD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

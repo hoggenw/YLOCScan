@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLOCScan'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YLOCScan.'
+  s.version          = '0.9.0'
+  s.summary          = 'Objective-C实现二维码扫描识别和生成二维码'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+使用Manager管理以方便的调用以实现二维码扫描和结果返回，图片二维码识别，二维码生成等
                        DESC
 
   s.homepage         = 'https://github.com/hoggenw/YLOCScan'
@@ -32,11 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YLOCScan/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YLOCScan' => ['YLOCScan/Assets/*.png']
-  # }
+   s.resource_bundles = {'YLOCScan' => ['YLOCScan/Assets/*.png']}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+s.frameworks = 'UIKit','Foundation','AVFoundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
