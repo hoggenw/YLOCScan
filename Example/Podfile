@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YLOCScan_Tests' do
+  pod 'YLOCScan', :path => '../'
+  
+  
+end
