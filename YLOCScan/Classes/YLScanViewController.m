@@ -34,7 +34,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.blackColor;
-    self.edgesForExtendedLayout = UIRectEdgeNone;
     [self.navigationController.navigationBar setHidden: true];
     // Do any additional setup after loading the view.
 }
@@ -106,7 +105,7 @@
     }
     
     UIImagePickerController * picker = [UIImagePickerController new];
-    picker.sourceType = PHAssetSourceTypeUserLibrary;
+    picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     picker.delegate = self;
     picker.allowsEditing = true;
     [self presentViewController:picker animated:true completion:nil];
