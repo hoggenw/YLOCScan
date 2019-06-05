@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLOCScan'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Objective-C实现二维码扫描识别和生成二维码'
 
 # This description is used to generate tags and improve search results.
