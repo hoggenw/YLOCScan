@@ -1,5 +1,5 @@
 PODS:
-  - YLOCScan (1.0.1)
+  - YLOCScan (1.0.2)
 
 DEPENDENCIES:
   - YLOCScan (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLOCScan: df8872b484b10865a5ed26a894561dde768add26
+  YLOCScan: cec23a2c6080d3e84a2bcc8a513f99a6624e6ea8
 
 PODFILE CHECKSUM: bede5b99cc8a26da161099fbc93701b92bc7c729
 
