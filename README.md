@@ -55,6 +55,7 @@ YLOCScan is available under the MIT license. See the LICENSE file for more info.
         [manager showScanView: self];
 
 ```
+
 在YLScanViewControllerDelegate的代理中处理成功后返回的数据
 
 ```
@@ -63,6 +64,23 @@ YLOCScan is available under the MIT license. See the LICENSE file for more info.
 }
 
 ```
+
+
+或者
+
+```
+    YLScanViewManager * manager = [YLScanViewManager sharedInstance];
+    manager.imageStyle = secondeNetGrid;
+//    manager.delegate = self;
+//    [manager showScanView: self];
+    
+    
+    [manager showScanView:self withBlock:^(YLScanResult * result) {
+        NSLog(@"wlg====%@", result.strScanned);
+    }];
+```
+
+
 二维码的生成
 
 ```
